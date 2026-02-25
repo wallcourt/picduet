@@ -94,6 +94,31 @@ body {
   animation: reveal-model 0.4s ease-out forwards;
 }
 
+/* Demo animations */
+@keyframes blink-cursor {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+.animate-cursor {
+  animation: blink-cursor 0.8s step-end infinite;
+}
+
+@keyframes demo-image-reveal {
+  0% { opacity: 0; transform: scale(0.95); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.animate-demo-reveal {
+  animation: demo-image-reveal 0.5s ease-out forwards;
+}
+
+@keyframes fade-out {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.animate-fade-out {
+  animation: fade-out 0.5s ease-in forwards;
+}
+
 /* Select dropdown styling */
 select {
   appearance: none;

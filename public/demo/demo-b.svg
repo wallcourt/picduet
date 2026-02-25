@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg-b" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#060610"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg-b)"/>
+  <!-- Stars -->
+  <circle cx="60" cy="80" r="1.2" fill="#fff" opacity="0.7"/>
+  <circle cx="440" cy="60" r="1.5" fill="#fff" opacity="0.8"/>
+  <circle cx="160" cy="30" r="0.8" fill="#fff" opacity="0.5"/>
+  <circle cx="380" cy="180" r="1" fill="#fff" opacity="0.6"/>
+  <circle cx="30" cy="300" r="1.2" fill="#fff" opacity="0.6"/>
+  <circle cx="480" cy="250" r="0.9" fill="#fff" opacity="0.5"/>
+  <circle cx="100" cy="420" r="1.1" fill="#fff" opacity="0.7"/>
+  <circle cx="400" cy="450" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="300" cy="50" r="1.3" fill="#fff" opacity="0.6"/>
+  <!-- Planet in background -->
+  <circle cx="400" cy="120" r="40" fill="#1a3050" opacity="0.4"/>
+  <ellipse cx="400" cy="120" rx="55" ry="8" fill="#2a4060" opacity="0.3" transform="rotate(-10 400 120)"/>
+  <!-- Nebula wisps -->
+  <ellipse cx="150" cy="150" rx="100" ry="50" fill="#301060" opacity="0.12"/>
+  <ellipse cx="350" cy="350" rx="80" ry="30" fill="#103060" opacity="0.08"/>
+  <!-- Cat astronaut - more stylized/painterly -->
+  <!-- Suit body -->
+  <ellipse cx="256" cy="320" rx="75" ry="85" fill="#d0d0d8" stroke="#b0b0b8" stroke-width="2.5"/>
+  <!-- Backpack -->
+  <rect x="200" y="260" width="20" height="60" rx="8" fill="#a0a0a8" stroke="#909098" stroke-width="1.5"/>
+  <rect x="292" y="260" width="20" height="60" rx="8" fill="#a0a0a8" stroke="#909098" stroke-width="1.5"/>
+  <!-- Helmet - larger, more prominent -->
+  <circle cx="256" cy="215" r="70" fill="#1e1e30" stroke="#707080" stroke-width="3.5"/>
+  <circle cx="256" cy="215" r="60" fill="#101020"/>
+  <!-- Visor shine -->
+  <path d="M220 190 Q240 175 260 185" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.15"/>
+  <!-- Cat face - different style, gray tabby -->
+  <ellipse cx="256" cy="224" rx="38" ry="32" fill="#808090"/>
+  <!-- Tabby stripes -->
+  <path d="M240 210 Q245 205 250 210" fill="none" stroke="#606068" stroke-width="2"/>
+  <path d="M255 208 Q260 203 265 208" fill="none" stroke="#606068" stroke-width="2"/>
+  <path d="M248 215 Q256 210 264 215" fill="none" stroke="#606068" stroke-width="1.5"/>
+  <!-- Ears -->
+  <polygon points="225,195 212,160 245,188" fill="#808090"/>
+  <polygon points="287,195 300,160 267,188" fill="#808090"/>
+  <polygon points="227,193 217,167 241,189" fill="#707078"/>
+  <polygon points="285,193 295,167 271,189" fill="#707078"/>
+  <!-- Eyes - amber -->
+  <ellipse cx="242" cy="220" rx="8" ry="9" fill="#f59e0b"/>
+  <ellipse cx="270" cy="220" rx="8" ry="9" fill="#f59e0b"/>
+  <ellipse cx="243" cy="219" rx="4" ry="6" fill="#111"/>
+  <ellipse cx="271" cy="219" rx="4" ry="6" fill="#111"/>
+  <circle cx="240" cy="217" r="2" fill="#fff" opacity="0.5"/>
+  <circle cx="268" cy="217" r="2" fill="#fff" opacity="0.5"/>
+  <!-- Nose -->
+  <ellipse cx="256" cy="232" rx="4.5" ry="3.5" fill="#d4878a"/>
+  <!-- Mouth -->
+  <path d="M249 236 Q256 243 263 236" fill="none" stroke="#a0707a" stroke-width="1.5"/>
+  <!-- Whiskers -->
+  <line x1="215" y1="228" x2="238" y2="230" stroke="#909098" stroke-width="0.8" opacity="0.5"/>
+  <line x1="215" y1="236" x2="238" y2="234" stroke="#909098" stroke-width="0.8" opacity="0.5"/>
+  <line x1="297" y1="228" x2="274" y2="230" stroke="#909098" stroke-width="0.8" opacity="0.5"/>
+  <line x1="297" y1="236" x2="274" y2="234" stroke="#909098" stroke-width="0.8" opacity="0.5"/>
+  <!-- Suit patches -->
+  <rect x="230" y="290" width="52" height="6" rx="3" fill="#9090a0"/>
+  <circle cx="256" cy="335" r="6" fill="#60a0ff" opacity="0.5"/>
+  <circle cx="256" cy="335" r="3" fill="#80b0ff" opacity="0.7"/>
+  <!-- Arms floating outward -->
+  <ellipse cx="168" cy="290" rx="28" ry="18" fill="#d0d0d8" stroke="#b0b0b8" stroke-width="2" transform="rotate(-30 168 290)"/>
+  <ellipse cx="344" cy="290" rx="28" ry="18" fill="#d0d0d8" stroke="#b0b0b8" stroke-width="2" transform="rotate(30 344 290)"/>
+  <!-- Gloves -->
+  <circle cx="148" cy="298" r="13" fill="#c8c8d0" stroke="#a0a0a8" stroke-width="1.5"/>
+  <circle cx="364" cy="298" r="13" fill="#c8c8d0" stroke="#a0a0a8" stroke-width="1.5"/>
+  <!-- Legs -->
+  <ellipse cx="232" cy="400" rx="20" ry="22" fill="#d0d0d8" stroke="#b0b0b8" stroke-width="2"/>
+  <ellipse cx="280" cy="400" rx="20" ry="22" fill="#d0d0d8" stroke="#b0b0b8" stroke-width="2"/>
+  <!-- Boots -->
+  <ellipse cx="230" cy="422" rx="22" ry="11" fill="#707080"/>
+  <ellipse cx="282" cy="422" rx="22" ry="11" fill="#707080"/>
+  <!-- Floating tether -->
+  <path d="M200 300 Q180 350 160 380 Q140 420 180 440" fill="none" stroke="#808090" stroke-width="1.5" opacity="0.4" stroke-dasharray="4 3"/>
+</svg>
