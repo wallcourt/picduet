@@ -85,7 +85,7 @@ export default function Header({ onToggleHistory }: HeaderProps) {
         <div className="flex justify-center">
           <a href="/generate">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo.png" alt="PicDuet" className="h-8" />
+            <img src="/picduet-logo.png" alt="PicDuet" className="h-8" />
           </a>
         </div>
 

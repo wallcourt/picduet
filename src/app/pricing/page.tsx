@@ -82,7 +82,7 @@ export default function PricingPage() {
         <div className="text-center">
           <a href="/" className="inline-block mb-8">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo.png" alt="PicDuet" className="mx-auto h-12" />
+            <img src="/picduet-logo.png" alt="PicDuet" className="mx-auto h-12" />
           </a>
           <h1 className="text-3xl font-bold text-foreground">
             Choose your plan

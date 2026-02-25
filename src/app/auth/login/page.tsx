@@ -44,7 +44,7 @@ export default function LoginPage() {
         <div className="text-center">
           <a href="/" className="inline-block">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo.png" alt="PicDuet" className="mx-auto h-16" />
+            <img src="/picduet-logo.png" alt="PicDuet" className="mx-auto h-16" />
           </a>
           <p className="mt-2 text-sm text-muted">
             Sign in to start generating

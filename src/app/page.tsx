@@ -15,7 +15,7 @@ export default async function Home() {
     <div className="flex min-h-screen flex-col items-center justify-center bg-background px-4">
       <div className="max-w-md text-center">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/logo.png" alt="PicDuet" className="mx-auto mb-6 h-32" />
+        <img src="/picduet-logo.png" alt="PicDuet" className="mx-auto mb-6 h-32" />
 
         <p className="mb-10 text-base leading-relaxed text-muted">
           One prompt. Two AI models. Compare results side-by-side and refine

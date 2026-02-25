@@ -77,7 +77,7 @@ export default async function SharePage({ params }: SharePageProps) {
         <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-4 sm:px-6">
           <a href="/generate">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo.png" alt="PicDuet" className="h-8" />
+            <img src="/picduet-logo.png" alt="PicDuet" className="h-8" />
           </a>
           <a
             href="/auth/login"
