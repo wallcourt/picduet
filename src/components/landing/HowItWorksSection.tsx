@@ -1,9 +1,9 @@
 const steps = [
   {
     number: 1,
-    title: "Enter a prompt",
+    title: "Write & enhance your prompt",
     description:
-      "Describe the image you want — add references, style notes, or let AI enhance your prompt automatically.",
+      "Write a rough idea or a detailed description — then toggle Enhance to let AI rewrite it into a vivid, optimized prompt before generation.",
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path
@@ -33,7 +33,7 @@ const steps = [
     number: 3,
     title: "Pick the winner",
     description:
-      "Choose your favorite image, reveal which model made it, then refine or share your creation.",
+      "Choose your favorite image and reveal which AI model made it. The winning image becomes your starting point.",
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path
@@ -44,20 +44,35 @@ const steps = [
       </svg>
     ),
   },
+  {
+    number: 4,
+    title: "Refine with follow-ups",
+    description:
+      "Not quite perfect? Send follow-up prompts to iterate on your winner — adjust details, change the mood, or push the style further until it's exactly right.",
+    icon: (
+      <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182"
+        />
+      </svg>
+    ),
+  },
 ];
 
 export default function HowItWorksSection() {
   return (
     <section className="border-t border-border px-4 py-20">
-      <div className="mx-auto max-w-4xl">
+      <div className="mx-auto max-w-5xl">
         <h2 className="text-center text-2xl font-bold text-foreground sm:text-3xl">
           How it works
         </h2>
         <p className="mt-3 text-center text-muted">
-          Three steps to discover which AI model fits your style.
+          Compare, choose, and iterate until it&apos;s perfect.
         </p>
 
-        <div className="mt-12 grid gap-8 sm:grid-cols-3">
+        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {steps.map((step) => (
             <div
               key={step.number}

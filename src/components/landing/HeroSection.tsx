@@ -26,8 +26,9 @@ export default function HeroSection() {
 
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-muted">
             PicDuet generates images from two AI models side-by-side in a blind
-            test. Compare, choose your favorite, then reveal which model made
-            it.
+            test. Use AI-powered prompt enhancement to get better results, pick
+            your favorite, then refine it with follow-up prompts until
+            it&apos;s exactly what you envisioned.
           </p>
 
           <a
